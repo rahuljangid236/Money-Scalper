@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
+import { DesktopHeader } from "@/components/website-layout/desktop/DesktopHeader";
+import DesktopFooter from "@/components/website-layout/desktop/DesktopFooter";
 
 const inter = Inter({
   weight: ["400", "500", "600", "700"],
@@ -20,7 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}  antialiased`}>{children}</body>
+      <body className={`${inter.className}  antialiased bg-black text-white`}>
+        <DesktopHeader />
+        {children}
+        <DesktopFooter />
+      </body>
     </html>
   );
 }
