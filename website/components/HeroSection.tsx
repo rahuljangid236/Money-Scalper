@@ -35,8 +35,8 @@ const HeroSection = () => {
             <path
               d="M6 25.5L24 7.5"
               stroke="#42FF00"
-              stroke-width="2.25"
-              stroke-linecap="round"
+              strokeWidth="2.25"
+              strokeLinecap="round"
             />
             <defs>
               <linearGradient
@@ -47,8 +47,8 @@ const HeroSection = () => {
                 y2="25.5"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#00FFC2" />
-                <stop offset="0.817308" stop-color="#42FF00" stop-opacity="0" />
+                <stop stopColor="#00FFC2" />
+                <stop offset="0.817308" stopColor="#42FF00" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>
@@ -70,8 +70,8 @@ const HeroSection = () => {
             <path
               d="M9.02187 27C9.02187 27 7.63247 9 27 9"
               stroke="#42FF00"
-              stroke-width="2.25"
-              stroke-linecap="round"
+              strokeWidth="2.25"
+              strokeLinecap="round"
             />
             <defs>
               <linearGradient
@@ -82,8 +82,8 @@ const HeroSection = () => {
                 y2="38"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#00FFC2" />
-                <stop offset="0.817308" stop-color="#42FF00" stop-opacity="0" />
+                <stop stopColor="#00FFC2" />
+                <stop offset="0.817308" stopColor="#42FF00" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>
@@ -104,8 +104,8 @@ const HeroSection = () => {
             <path
               d="M7.5 18C7.5 23.799 12.201 28.5 18 28.5C23.799 28.5 27.45 22.725 27.45 22.725V27.75M28.5 18C28.5 12.201 23.8334 7.5 18 7.5C11 7.5 7.5 13.275 7.5 13.275V8.25"
               stroke="#42FF00"
-              stroke-width="2.25"
-              stroke-linecap="round"
+              strokeWidth="2.25"
+              strokeLinecap="round"
             />
             <defs>
               <radialGradient
@@ -116,8 +116,8 @@ const HeroSection = () => {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(18 18) rotate(21.6256) scale(8.47024)"
               >
-                <stop stop-color="#00FFC2" />
-                <stop offset="1" stop-color="#42FF00" stop-opacity="0" />
+                <stop stopColor="#00FFC2" />
+                <stop offset="1" stopColor="#42FF00" stopOpacity="0" />
               </radialGradient>
             </defs>
           </svg>
@@ -162,9 +162,9 @@ const HeroSection = () => {
             <path
               d="M20 11V17.2C20 18.8802 20 19.7202 19.673 20.362C19.3854 20.9265 18.9265 21.3854 18.362 21.673C17.7202 22 16.8802 22 15.2 22H8.8C7.11984 22 6.27976 22 5.63803 21.673C5.07354 21.3854 4.6146 20.9265 4.32698 20.362C4 19.7202 4 18.8802 4 17.2V11M20 11H4M20 11C21.1046 11 22 10.1046 22 9C22 7.89543 21.1046 7 20 7H4C2.89543 7 2 7.89543 2 9C2 10.1046 2.89543 11 4 11M12 7V22M12 7H15.5C16.8807 7 18 5.88071 18 4.5C18 3.11929 16.8807 2 15.5 2H15.4198C14.2803 2 13.2758 2.74741 12.9484 3.83881L12 7ZM12 7H8.5C7.11929 7 6 5.88071 6 4.5C6 3.11929 7.11929 2 8.5 2H8.58023C9.71968 2 10.7242 2.74741 11.0516 3.83881L12 7Z"
               stroke="#42FF00"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
           Try Demo
