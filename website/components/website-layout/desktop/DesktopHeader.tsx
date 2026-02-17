@@ -37,7 +37,7 @@ export const DesktopHeader = () => {
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <NavbarButton variant="gradient">Start Free Trial</NavbarButton>
           </div>
         </NavBody>
 
@@ -84,7 +84,7 @@ export const DesktopHeader = () => {
           </MobileNavMenu>
         </MobileNav>
       </Navbar>
-      <DummyContent />
+      {/* <DummyContent /> */}
 
       {/* Navbar */}
     </div>

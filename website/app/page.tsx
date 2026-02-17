@@ -1,3 +1,12 @@
+import HeroSection from "@/components/HeroSection";
+import VideoSection from "@/components/VideoSection";
+
 export default function Home() {
-  return <h1>fdfsadfadsjkl</h1>;
+  return (
+    <>
+      <HeroSection />
+      <VideoSection />
+      <h1 className="h-[1200px]"> fdfsadfadsjkl</h1>
+    </>
+  );
 }
